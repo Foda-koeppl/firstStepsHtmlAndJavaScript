@@ -1,2 +1,2 @@
 # firstStepsInHtmlAndJavaScript
-This is my first projects
+This is my first project
