@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>nanonaned</title>
+    <script>
+        function changeText() {
+            document.getElementById("paragraph1").innerHTML =
+                "Jetzt steht schon was.";
+        }
+    </script>
+    <script>
+        function makeSum() {
+            let n1 = document.getElementById("idNum1").value;
+            let n2 = document.getElementById("idNum2").value;
+            document.getElementById("paragraph1").innerHTML =
+                Number(n1) + Number(n2);
+        }
+    </script>
+</head>
+<body
+    <h1 style="text-align:center;"> Österreich</h1>
+    <h2>Wien</h2>
+    <h3>Meidling</h3>
+
+    <br>
+
+    <a href="https://newsv2.orf.at/static/images/site/news/20120413/stalin_schulhefte_portrait_jung_box_ap.2137302.jpg" target="_blank">
+     <p>Passat kaufen
+    <p>
+     </a>
+    <a href="https://www.blenheimpalace.com/assets/components/phpthumbof/cache/churchill-cropped.a465aff15d2a6cb875d46b471c355815.jpg" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sir_Winston_Churchill_-_19086236948.jpg/640px-Sir_Winston_Churchill_-_19086236948.jpg"
+             alt="Churchill">
+    </a>
+
+
+    <p>
+    <a href="https://gedenkbuch.univie.ac.at/fileadmin/upload/gedenkbuch/Bilder/22754_Kreisky_Bruno_1935.jpg" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Bruno_Kreisky_1983_%28cropped%29.JPEG"
+             alt="bruno kreisky">
+       </a>
+      </p>
+        <a href="./Seite2.html" target="_blank">
+            Secret Web Page
+       <br>
+         </a>
+        <button onclick="changeText()">Klick mich mal</button>
+    <p id="paragraph1">
+            Da steht nix.
+        </p>
+</body>
+</html>
+
+
+<style>
+    body {
+        background-image: url('Austria.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
+<form>
+    <label for="fname">Erste Zahl:</label><br>
+    <input type="number" id="idNum1" name="nameNum1"><br>
+    <label for="lname">Nachnahme:</label><br>
+    <input type="number" id="idnum2" name="nameNum2"><br><br>
+    <button onclick="makeSum()">Bestätigen</button>
+</form>
